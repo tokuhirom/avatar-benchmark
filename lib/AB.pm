@@ -56,8 +56,6 @@ sub render_gm {
         $base->Composite(image => $part, compose => 'over', x => 0, y => 0);
     }
 
-#   $base->set_quality(90);
-#   $base->image_set_format('jpeg');
     $base->Set(quality => 90);
     $base->Write('out/gm.jpg');
 }
