@@ -1,0 +1,7 @@
+## SC440 linux, PenD 3GHz, 8GB memory
+
+Benchmark: timing 1000 iterations of gd, gm, imager, imlib2...
+        gd: 23 wallclock secs (22.84 usr +  0.35 sys = 23.19 CPU) @ 43.12/s (n=1000)
+        gm: 39 wallclock secs (74.32 usr +  1.29 sys = 75.61 CPU) @ 13.23/s (n=1000)
+    imager: 31 wallclock secs (31.32 usr +  0.33 sys = 31.65 CPU) @ 31.60/s (n=1000)
+    imlib2: 12 wallclock secs (10.88 usr +  0.62 sys = 11.50 CPU) @ 86.96/s (n=1000)
